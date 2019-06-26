@@ -14,7 +14,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Entity
 public class User {
-    public static final int Mannager_AUTHORITY = 0;            /*权限*/
+    public static final int Mannager_AUTHORITY= 0;            /*权限*/
     public static final int Teacher_AUTHORITY = 1;             /*判断是管理员，学生还是教师*/
     public static final int Student_AUTHORITY = 2;
     @Id
@@ -32,7 +32,7 @@ public class User {
             updatable = false,
             insertable = false)
     private LocalDateTime insertTime;
-    private int state;      /*0未分配，1已分配，2已完成*/
+
 
     public User(int id) {
         this.id = id;
