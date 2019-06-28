@@ -23,7 +23,7 @@ import java.util.Optional;
 public class LoginController {
     private static final String STUDENT_ROLE = "bb63e5f7e0f2ffae845c";
     private static final String TEACHER_ROLE = "6983f953b49c88210cb9";
-    private static final String MANNAGER_ROLE = "sdaas5d584s4ad512asd";
+    private static final String MANNAGER_ROLE = "Mannager";
 
     @Autowired
     private UserService userService;
